@@ -46,7 +46,7 @@ A comprehensive guide to building, documenting, securing, and scaling production
 
 * APIs enable communication between software components by providing specific services.
 
-📊 ### Types of APIs
+### 📊Types of APIs
 **Public APIs (Open APIs):**
 * Available publicly for external developers to trade or interact with services.
 * Security is critical to prevent abuse (e.g., DDoS attacks).
