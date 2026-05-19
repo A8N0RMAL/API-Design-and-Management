@@ -1,4 +1,3 @@
-<img width="890" height="656" alt="download" src="https://github.com/user-attachments/assets/32330fd0-7ebc-48ce-9b1f-5b9f5fa6f7bb" /># API-Design-and-Management
 A comprehensive guide to building, documenting, securing, and scaling production-ready APIs that developers love to use.
 
 ---
