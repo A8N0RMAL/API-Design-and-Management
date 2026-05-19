@@ -146,12 +146,14 @@ Below is a breakdown of how architectural patterns map visually between REST and
 In a REST system, fetching a user and their complex relational metadata requires multiple distinct endpoints and structural iterations.
 
 <img width="890" height="656" alt="download" src="https://github.com/user-attachments/assets/46f903ca-16ed-4530-9227-52f14cf3e901" />
+
 *Figure 1: REST Multiple Endpoints vs Rigid Resource Structures.*
 
 #### 2. The GraphQL Single Endpoint Shift
 GraphQL simplifies data retrieval. Instead of querying multiple endpoints, the client pushes a custom declarative payload into a single gateway.
 
-<img width="1656" height="733" alt="Screenshot 2026-05-19 174940" src="https://github.com/user-attachments/assets/69b7a166-d838-47af-858c-1933c45ebea6" />
+<img width="1323" height="657" alt="Screenshot 2026-05-19 175058" src="https://github.com/user-attachments/assets/707b58d3-5d52-40e2-92bc-0b46717b7ce7" />
+
 *Figure 2: Client-Driven Declarative Data Fetching via a Single GraphQL Endpoint.*
 
 ---
@@ -165,7 +167,8 @@ GraphQL simplifies data retrieval. Instead of querying multiple endpoints, the c
 ### 📸 Query Implementation & Payload Matching
 The key feature of GraphQL is that the response structure mirrors the query structure exactly. 
 
-<img width="1323" height="657" alt="Screenshot 2026-05-19 175058" src="https://github.com/user-attachments/assets/707b58d3-5d52-40e2-92bc-0b46717b7ce7" />
+<img width="1656" height="733" alt="Screenshot 2026-05-19 174940" src="https://github.com/user-attachments/assets/69b7a166-d838-47af-858c-1933c45ebea6" />
+
 *Figure 3: Executing a Precise Field Query and Receiving a Structured JSON Mirror Response.*
 
 ---
